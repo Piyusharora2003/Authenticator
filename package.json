@@ -1,0 +1,29 @@
+{
+  "name": "authenticator",
+  "version": "1.0.0",
+  "description": "The package allows developers to authenticate, authorize and track user actions",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "type": "module",
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.4.3",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piyusharora2003/Authenticator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piyusharora2003/Authenticator/issues"
+  },
+  "homepage": "https://github.com/Piyusharora2003/Authenticator#readme"
+}
